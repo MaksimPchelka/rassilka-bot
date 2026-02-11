@@ -9,7 +9,7 @@ from aiogram.types import Message
 from aiogram.exceptions import TelegramForbiddenError
 
 TOKEN = os.getenv("BOT_TOKEN") or os.getenv("TOKEN")
-ADMIN_ID = #айдишник админа
+ADMIN_ID = # вставьте свой айди от акка в тг
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -87,3 +87,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
