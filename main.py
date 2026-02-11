@@ -8,8 +8,8 @@ from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram.exceptions import TelegramForbiddenError
 
-TOKEN = os.getenv("BOT_TOKEN") or os.getenv("TOKEN") or "8381940337:AAFg7H4y-NmZTbca7mtLsJVWvvoxOViqoYc"
-ADMIN_ID = 7179906538
+TOKEN = os.getenv("BOT_TOKEN") or os.getenv("TOKEN")
+ADMIN_ID = #айдишник админа
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -85,4 +85,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
